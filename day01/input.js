@@ -1037,5 +1037,6 @@ const input = `+2
 -8
 -7
 +8
--77371`.split('\n').reduce((acc, val) => acc + Number(val), 0);
-console.log('input', input);
+-77371`.split('\n');
+
+module.exports = input;
